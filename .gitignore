@@ -1,0 +1,42 @@
+.venv
+# Ignore the virtual environment
+.venv/
+env/
+
+# Ignore node_modules directory
+node_modules/
+
+# Ignore environment variable files
+.env
+
+# Ignore Python bytecode
+*.pyc
+__pycache__/
+
+# Ignore Django local database
+db.sqlite3
+
+# Ignore frontend build files
+build/
+
+# Ignore log files
+*.log
+
+# Ignore macOS and Windows system files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE and editor settings
+.vscode/
+.idea/
+*.swp
+
+# Ignore coverage and temporary files
+coverage/
+*.cover
+*.pid
+*.gz
+
+# Ignore lock files if not necessary to version control
+package-lock.json
+yarn.lock
